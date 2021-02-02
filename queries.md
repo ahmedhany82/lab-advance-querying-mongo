@@ -62,6 +62,8 @@
 ### 11. All the companies founded on the second semester of the year. Limit your search to 1000 companies.
 
 <!-- Your Code Goes Here -->
+* query: {founded_month: {$in: [7,8,9,10,11,12]}}
+* limit: 1000
 
 ### 12. All the companies founded before 2000 that have an acquisition amount of more than 10.000.000
 
