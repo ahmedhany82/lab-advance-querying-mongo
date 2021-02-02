@@ -31,7 +31,8 @@
 
 <!-- Your Code Goes Here -->
 * query: {$and: [ { number_of_employees : {$lt: 1000}}, {founded_year: {$lt: 2005}} ] }
-* projection: {number_of_employees: 1}
+* sort: {number_of_employees: 1}
+* limit: 10
 
 ### 6. All the companies that don't include the `partners` field.
 
